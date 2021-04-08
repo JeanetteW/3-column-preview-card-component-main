@@ -1,3 +1,7 @@
+body {
+  max-height: 100vh;
+}
+
 h2 {
   font-family: 'Big Shoulders Display', cursive;
   color: hsl(0, 0%, 95%);
@@ -22,7 +26,8 @@ p {
 .container {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-  margin: 5rem 3rem;
+  justify-content: center;
+  margin: 2rem 3rem;
 }
 
 .card {
@@ -33,7 +38,7 @@ p {
 
 .sedans {
   background-color: hsl(31, 77%, 52%);
-  border-radius: 10px 0px 0px 10px;
+  border-radius: 10px 0 0 10px;
 }
 
 .suvs {
@@ -42,7 +47,7 @@ p {
 
 .luxury {
   background-color: hsl(179, 100%, 13%);
-  border-radius: 0px 10px 10px 0px;
+  border-radius: 0 10px 10px 0;
 }
 
 /* Button */
